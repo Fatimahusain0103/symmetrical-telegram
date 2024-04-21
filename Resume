@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Your custom CSS for styling */
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Resume Builder</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-5">
+    <!-- Resume Templates -->
+    <h2>Choose a Template</h2>
+    <div class="row">
+      <!-- Template options go here -->
+    </div>
+
+    <!-- Form for Inputting Information -->
+    <h2>Input Information</h2>
+    <form id="resumeForm">
+      <!-- Form fields for personal information, education, work experience, skills, etc. -->
+    </form>
+
+    <!-- Preview Section -->
+    <h2>Preview</h2>
+    <div id="preview">
+      <!-- Preview of the resume goes here -->
+    </div>
+
+    <!-- Download and Export Buttons -->
+    <button class="btn btn-primary mt-3">Download as PDF</button>
+    <button class="btn btn-primary mt-3">Download as Word</button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Your JavaScript for dynamic form handling and preview functionality
+  </script>
+</body>
+</html>
